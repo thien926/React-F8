@@ -17,6 +17,8 @@ function Component () {
 ### Lưu ý
 - Component được re-render sau khi 'setState
 - Initial state chỉ dùng cho lần đầu                               I
-- Set state với callback?
+- Set state với callback? (setCounter(prevState => prevState + 1))
 - Initial state với callback?
 - Set state là thay thế state bằng giá trị mới
+
+https://www.youtube.com/watch?v=rIaFc5MLCcs&list=PL_-VfJajZj0UXjlKfBwFX73usByw3Ph9Q&index=25

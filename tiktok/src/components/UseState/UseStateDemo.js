@@ -4,9 +4,17 @@ import { Button } from '@mui/material';
 function UseStateDemo() {
     const [counter, setCounter] = useState(1);
 
+    // counter = counter + 2
     const handlIncrease = () => {
-        setCounter(counter + 1);
+        setCounter(prevState => prevState + 1);
+        setCounter(prevState => prevState + 1);
     }
+
+    // counter = counter + 1
+    // const handlIncrease = () => {
+    //     setCounter(counter + 1);
+    //     setCounter(counter + 1);
+    // }
 
     return (
         <React.Fragment>
