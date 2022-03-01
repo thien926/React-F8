@@ -38,6 +38,15 @@ import { TextField, Tabs, Tab, Box, Button } from '@mui/material';
 // 2.   Cleanup function luôn được gọi trước khi component unmounted
 // 3.   Cleanup function luôn được gọi trước khi callback được gọi (trừ lần mounted)
 
+// FQA
+// 1. Callback gọi sau khi elements duược mounted vào DOM
+// 2. Phân biệt Mounted & Re-render
+// 3. Có thể sử dụng nhiều dependencies, it nhất 1 dependency thay đổi
+// 4. Sử dụng dependencies khi nào?
+// 5. Có nên viết nhiều logic khác nhau trong 1 useEffect?
+// 6. Phân biệt cách truyền callback qua props
+// 7. Khi setState cùng một giá trị thi component sẽ không re-render
+
 const tabs = ['posts', 'comments', 'albums'];
 
 function Contentv29() {
