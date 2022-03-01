@@ -34,8 +34,9 @@ import { TextField, Tabs, Tab, Box, Button } from '@mui/material';
  */
 
 // ----------
-// 1.  Callback luôn được gọi sau khi component mounted
-// 2. Cleanup function luôn được gọi trước khi component unmounted
+// 1.   Callback luôn được gọi sau khi component mounted
+// 2.   Cleanup function luôn được gọi trước khi component unmounted
+// 3.   Cleanup function luôn được gọi trước khi callback được gọi (trừ lần mounted)
 
 const tabs = ['posts', 'comments', 'albums'];
 
