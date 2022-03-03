@@ -1,5 +1,6 @@
 
 import './App.css';
+import ReactMemo from './components/ReactMemo/ReactMemo';
 import FatherContentv29 from './components/UseEffect/FatherContentv29';
 import UseLayoutEffectv35 from './components/UseLayoutEffect/UseLayoutEffectv35';
 import UseRefv36 from './components/UseRef/UseRefv36';
@@ -10,7 +11,8 @@ function App() {
         <div className="App">
             {/* <UseStateDemo /> */}
             {/* <TwoWayBindingv2 /> */}
-            <UseRefv36 />
+            {/* <UseRefv36 /> */}
+            <ReactMemo />
         </div>
     );
 }
