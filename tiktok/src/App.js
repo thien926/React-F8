@@ -1,6 +1,7 @@
 
 import './App.css';
 import ReactMemo from './components/ReactMemo/ReactMemo';
+import UseCallBack from './components/UseCallBack/UseCallBack';
 import FatherContentv29 from './components/UseEffect/FatherContentv29';
 import UseLayoutEffectv35 from './components/UseLayoutEffect/UseLayoutEffectv35';
 import UseRefv36 from './components/UseRef/UseRefv36';
@@ -12,7 +13,8 @@ function App() {
             {/* <UseStateDemo /> */}
             {/* <TwoWayBindingv2 /> */}
             {/* <UseRefv36 /> */}
-            <ReactMemo />
+            {/* <ReactMemo /> */}
+            <UseCallBack />
         </div>
     );
 }
