@@ -2,6 +2,7 @@
 import './App.css';
 import ReactMemo from './components/ReactMemo/ReactMemo';
 import UseCallBack from './components/UseCallBack/UseCallBack';
+import UseContext from './components/UseContext/UseContext';
 import FatherContentv29 from './components/UseEffect/FatherContentv29';
 import UseLayoutEffectv35 from './components/UseLayoutEffect/UseLayoutEffectv35';
 import UseMemo from './components/UseMemo/UseMemo';
@@ -23,7 +24,8 @@ function App() {
             {/* <UseMemo /> */}
             {/* <UseReducer /> */}
             {/* <TodoApp /> */}
-            <Todo />
+            {/* <Todo /> */}
+            <UseContext />
         </div>
     );
 }
